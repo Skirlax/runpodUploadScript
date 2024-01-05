@@ -9,11 +9,8 @@ from paramiko.sftp_client import SFTPClient
 from dotenv import load_dotenv, find_dotenv
 
 if getattr(sys, 'frozen', False):
-    # The application is frozen
     application_path = sys._MEIPASS
 else:
-    # The application is not frozen
-    # Change this bit to match where you store your data files:
     application_path = os.path.dirname(os.path.abspath(__file__))
 
 dotenv_path = os.path.join(application_path, '.env')
