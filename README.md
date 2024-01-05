@@ -41,4 +41,4 @@ This will upload all files smaller then 100 MBs in size from the given directory
 ````
 ./rp_utility_script -rc <commands/file/path/> -pi <pod_id>
 ````
-This will read all the commands from <commands/file/path/> and execute them on the host. The should be one command per line in the specified file. Lines starting with ## will be treated as comments and ignored. Lines starting with !!! will be printed to the console. If your command contains \, please remove them and put the entire command on one line.
+This will read all the commands from <commands/file/path/> and execute them on the host. The should be one command per line in the specified file. Lines starting with ## will be treated as comments and ignored. Lines starting with !!! will be printed to the console. If your command contains \\, please remove them and put the entire command on one line.
