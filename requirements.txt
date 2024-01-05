@@ -1,0 +1,4 @@
+emoji~=2.9.0
+paramiko~=3.4.0
+runpod~=1.5.0
+python-dotenv~=1.0.0

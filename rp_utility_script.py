@@ -133,8 +133,8 @@ def list_user_pods():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='RunPod runpod_script')
-    parser.add_argument('-cp', '--create_pod', action='store_true', help='Create a pod')
-    parser.add_argument('-ucd', '--upload_current_dir', action='store_true', help='Upload current dir to pod')
+    parser.add_argument('-cp', '--create_pod', action='store_true', help='Interactively create a pod.')
+    parser.add_argument('-ucd', '--upload_current_dir', action='store_true', help='Upload current directory to pod.')
     parser.add_argument('-tp', '--terminate_pod', action='store_true', help='Terminate a pod')
     parser.add_argument('-pi', '--pod_id', type=str, help='The id of the pod')
     parser.add_argument('-ud', '--upload_dir', type=str, help='The dir to upload.')
